@@ -34,7 +34,7 @@ function traduz_data_para_banco($data)
         return "";//o mesmo devolve uma string vazia, que é gravado ao banco.
     }
 
-    $dados = explode("/", $data);//Array "$dados" que rebebe o conteúdo
+    $dados = explode("/", $data);//Array "$dados" que recebe o conteúdo
 	//de $data SEM as "/".
 
 	if (count($dados) != 3) {
